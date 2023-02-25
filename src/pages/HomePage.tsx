@@ -1,13 +1,8 @@
 import React from "react";
-import {FC} from "react";
+import Header from "../components/Header";
 
-interface HomePageProps {
-
-}
-
-
-const HomePageProps:FC<HomePageProps> = (props) =>{
-    return (<div></div>)
+const HomePageProps = () =>{
+    return (<div><Header/></div>)
 }
 
 
